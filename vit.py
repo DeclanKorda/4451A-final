@@ -17,7 +17,6 @@ sys.stdout.reconfigure(line_buffering=True)
 def main():
 
     # 1. Download/Get Dataset
-    # 1. Download/Get Dataset
     path = download_dataset()
 
     # 2. Data Transforms & 3. Load Data & Dataloaders
